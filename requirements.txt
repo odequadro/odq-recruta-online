@@ -1,0 +1,44 @@
+# ODQ Recruta - Sistema Online de Triagem de Currículos
+# Dependências para versão web (Streamlit Cloud)
+
+# Framework web
+streamlit>=1.28.0
+pandas>=1.5.0
+plotly>=5.15.0
+
+# Bibliotecas para processamento de PDF
+PyPDF2>=3.0.0
+pdfplumber>=0.9.0
+
+# Biblioteca para processamento de documentos Word
+python-docx>=0.8.11
+
+# Bibliotecas para Microsoft 365 / Office 365
+msal>=1.24.0
+requests>=2.31.0
+
+# Processamento de dados
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Email e validação
+email-validator>=2.0.0
+
+# Bibliotecas opcionais para IA
+# openai>=1.0.0  # Descomente para usar GPT
+# transformers>=4.30.0  # Descomente para análise local
+# torch>=2.0.0  # Descomente para análise local
+
+# Bibliotecas padrão do Python (incluídas automaticamente)
+# - tkinter (interface gráfica)
+# - sqlite3 (banco de dados)
+# - imaplib (cliente email)
+# - email (processamento de emails)
+# - datetime (manipulação de datas)
+# - json (processamento JSON)
+# - os (operações do sistema)
+# - tempfile (arquivos temporários)
+# - threading (processamento paralelo)
+
+# Opcional: para melhor compatibilidade com diferentes formatos
+# chardet>=5.0.0  # Detecção de encoding de arquivos
